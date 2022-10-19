@@ -8,7 +8,7 @@ error_reporting(0);
 
 $list = explode("\n", file_get_contents($argv[1]));
 
-$hash = '$2y$10$g86TT9SRPuc0eoseG1tx0OYHQRTKlIVQjlix4.uNgTMfLdY1y.Ntm';
+$hash = ''; //the password to be decrypted
 
 if(isset($argv[1])){
     foreach($list as $wordlist) {
